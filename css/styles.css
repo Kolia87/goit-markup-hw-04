@@ -180,11 +180,6 @@ p {
   background-repeat: no-repeat;
   background-position: center;
 }
-.nav_phone_icon:hover,
-.nav_phone_icon:focus {
-  cursor: pointer;
-  background-color: var(--accent-color);
-}
 
 /* hero */
 .hero {
