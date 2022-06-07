@@ -167,6 +167,7 @@ p {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  fill: var(--text-color);
 }
 
 /* icon_phone */
@@ -179,6 +180,7 @@ p {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+    fill: var(--text-color);
 }
 
 /* hero */
@@ -426,20 +428,25 @@ p {
   border: 1px solid var(--border);
   border-radius: 4px;
 }
+/* .user_icon_link_clients:hover,
+.user_icon_link_clients:focus {
+  border: 1px solid var(--accent-color);
+  border-radius: 4px;
+} */
+
 .user_icon_link_clients:hover,
 .user_icon_link_clients:focus {
   border: 1px solid var(--accent-color);
   border-radius: 4px;
 }
-
 .clients_title {
   margin-bottom: 50px;
 }
 .user_icon_clients{
   fill: var(--clients-icon-bg);
 }
-.user_icon_clients:hover,
-.user_icon_clients:focus{
+.user_icon_link_clients:hover .user_icon_clients,
+.user_icon_clients:focus .user_icon_link_clients{
 fill: var(--accent-color);
 }
 
